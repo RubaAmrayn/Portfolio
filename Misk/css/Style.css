@@ -1,0 +1,578 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis');
+html{
+    padding: 0;
+    margin: 0;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+.navbar{
+    position: -webkit-sticky;
+    position: sticky;
+    top:0;
+}
+body { 
+    font-family: 'Dosis', sans-serif;
+}
+
+.container {
+    width: 95% !important; 
+    margin: 0 auto; 
+}
+.clearfix {
+    clear: both
+}
+
+
+header .slider .intro {
+   padding-top: 25%;
+   text-align: center;
+   padding-bottom: 45%;
+   color: #00B48B;
+   background-color: rgb(136, 218, 136);
+}
+
+header .slider .intro h2 {
+    margin: 0 auto;
+    font-size: 40px;
+   color:white;
+    width: 100%;
+   
+}
+
+header .slider .intro button {
+    background:#fff; 
+    margin-top: 30px;
+    font-size: 20px;
+  border:none;
+  outline:none;
+    font-weight: bold;
+    padding: 10px 30px;
+    color: #444;    
+}
+
+header .navbar {
+    background-color: #272C31; 
+    color: #fff; 
+    overflow: hidden;
+  width:100% !important;
+}
+
+header .navbar h2 {
+    float: left;
+    text-transform: uppercase;
+    position: absolute;
+    left:2%;
+    align-content: center;
+}
+header .navbar h2 span {
+    color: #00B48B
+}
+header .navbar .nav-content{
+    padding-right: 2%;
+    float: right;
+}
+
+header .navbar ul {
+    list-style: none; 
+    
+    overflow: hidden; 
+  
+   
+}
+
+header .navbar ul li {
+    float: left; 
+    padding: 10px
+}
+
+header .navbar ul li a {
+    color: #FFF;
+    text-decoration: none;
+    
+}
+
+header .navbar ul li.active a,
+header .navbar ul li a:hover {
+    color:#00B48B 
+}
+/*About me*/
+
+.about-me {
+   
+    background-color: #F2F2F2; 
+    overflow: hidden;
+    width:95%;
+    margin: 5% auto;
+}
+
+.about-me .image {
+   float: left;
+    width: 40%;
+    margin: 0;
+    padding: 0;
+}
+.about-me .image img {
+    width: 100%;
+}
+
+.about-me .info {
+    float: left;
+    width: 60%
+}
+
+.about-me .info h2 {
+    margin: 20px 0 20px 40px;
+    color: #272C31
+    
+    
+}
+
+.about-me .info > p {
+    margin: 0 0 10px 40px;
+   
+}
+
+.about-me .info > p:last-of-type {
+    margin-top: 20px;
+   
+}
+
+.about-me .info p {
+    line-height: 1.5;
+    color: #3A3F43
+}
+
+
+.about-me .info .hobbies {
+    overflow: hidden;
+    margin: 15px 0 0 40px
+}
+
+
+.about-me .info .hobbies .content {
+    float: left;
+    width: 50%;
+    min-height: 100px; 
+    overflow: hidden
+}
+
+.about-me .info .hobbies .content h3{
+    color: #272C31
+}
+
+.about-me .info .hobbies .content .icon {
+    float: left;
+    width: 12%;
+    margin-right: 5%
+    
+}
+
+.about-me .info .hobbies .content .icon img {
+   max-width: 100%;
+   margin: 20px 10px 0 0
+    
+}
+
+.about-me .info .hobbies .content .text {
+    float: left;
+    width: 83%
+    
+}
+/*End About me*/
+/*my skills*/
+.my-skills {
+    padding-top: 30px;
+    padding-bottom: 50px;
+    overflow: hidden
+    
+}
+.my-skills .skills,
+.my-skills .progress {
+    width: 50%;
+    float: left
+}
+
+
+.my-skills .skills h2 {
+    margin: 20px 0 20px 40px;
+    color: #272C31    
+}
+
+.my-skills .skills p {
+    margin: 0 0 10px 40px;
+    line-height: 1.5;
+    color: #3A3F43
+}
+
+.my-skills .skills p:last-of-type {
+    margin-top: 20px;  
+}
+
+.my-skills .skills button {
+
+    margin-top: 20px;
+    margin-left: 40px
+    
+}
+
+.my-skills .progress .tec {
+  margin-left: 50px  
+
+}
+
+.my-skills .progress .tec h3 {
+    color: #3A3F43
+}
+
+.my-skills .progress .tec div {
+    background-color: #F2F2F2;
+    height: 25px;
+    
+} 
+
+.my-skills .progress .tec div span {
+    background-color: #00B48B;
+    height: 25px;
+    display: block;
+    line-height: 25px;
+    text-align: right;
+    color: #FFF;
+    font-weight: bold
+}
+/*End my skills*/
+/*portfolio*/
+.portfolio {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    
+}
+
+.portfolio h2 {
+    color: #272C31
+}
+
+.portfolio p {
+    line-height: 1.7;
+    color: #3A3F43;
+    margin-bottom: 30px
+}
+
+.portfolio .our-work {
+    overflow: hidden    
+}
+.portfolio .our-work > div {
+    float: left;
+    width: 33.333333%;
+    margin-bottom: 10px;
+    
+}
+.portfolio .our-work > div img {
+    width: 92%;
+    margin: 10px;
+    padding: 3px;
+    background-color: #FFF;
+   
+  
+}
+/*End protfolio*/
+/*footer*/
+.footer {
+    background-color: #121417;
+    color: #71767D;
+    padding: 20px 0;
+    text-align: center;
+    overflow: hidden;
+    width:100%;
+}
+
+.footer span {
+    float: left;
+    padding-left:2%;
+}
+
+.footer ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+    float: right;
+    padding-right: 2%;
+}
+
+.footer ul li {
+    display: inline-block;
+    
+    
+}
+
+.footer ul li img {
+    width: 24px
+}
+
+
+.my-button {
+    background: none;
+    border: 2px solid #00B48B;
+    padding: 10px 30px;
+    color: #00B48B;
+    font-weight: bold;
+}
+
+/* @media only screen and (min-width: 770px) and (min-width:992px){
+
+} */
+@media only screen and (max-width: 600px){
+    body { 
+        font-family: 'Dosis', sans-serif;
+        margin-left: 20px;
+        padding: 0;
+        margin:0;
+    }
+ 
+    .slider{
+        height: auto;
+        width:100%;
+    }
+    .container {
+       width:95%; 
+        margin: 0 auto; 
+    }
+    .clearfix {
+        clear: both
+    }
+    
+    header .intro{
+        width:100%;
+    }
+    
+    
+   
+    
+   
+    
+    .about-me { 
+        width: 95%;
+        overflow: hidden
+    }
+    
+    .about-me .image {
+        width: 100%;
+        margin: 20px auto;
+    }
+    .about-me .image img {
+        width: 100%;
+    }
+    
+    .about-me .info {
+      width:100%;
+    }
+    .about-me .info h2{
+        text-align: center;
+    }
+    
+
+    
+    .about-me .info .hobbies {
+        overflow: hidden;
+        margin: 15px auto;
+        width:100%;
+    }
+    
+   
+    .about-me .info .hobbies .content{
+        height: auto;
+        width:100%;
+    }
+   
+
+    .my-skills .skills{
+        width:100%;
+        height: auto;
+    }
+    
+    .skills .my-button{
+       width: 80%;
+       margin: 0 auto;
+    }
+    .my-skills .progress{
+        width: 100%;
+        height: auto;
+    }
+    .portfolio .our-work > div{
+        width:100%;
+        height: auto;
+    }
+   
+}
+
+    /* @media only screen and (max-width: 768px) {
+        body { 
+            font-family: 'Dosis', sans-serif;
+            margin-left: 20px
+        }
+        
+        .container {
+            width: 340px; 
+            margin: auto; 
+        }
+        .clearfix {
+            clear: both
+        }
+        
+        header .slider {
+            height: 600px;
+            width: 52%
+        }
+        
+        header .slider .intro {
+            
+           padding-top: 200px;
+           text-align: center;
+           color: #00B48B
+        }
+        
+        header .slider .intro h2 {
+            margin: -190px -105px 0;
+        font-size: 30px;
+        background-color: rgba(255, 255, 255, 0.4);
+        width: 540px;
+        border-top: 4px solid #FFF;
+        border-bottom: 4px solid #FFF;
+        padding: 5px 0
+        }
+        
+        header .slider .intro button {
+            background: none;
+            margin-top: -2px;
+            font-size: 20px;
+            border: 2px solid #FFF;
+            font-weight: bold;
+            padding: 10px 30px;
+            color: inherit 
+        }
+        
+        .navbar{
+            margin: 23% 30%
+        }
+       .navbar h2{
+        margin: -487px -200px
+       }
+      
+        header .navbar ul li {
+            float: left; 
+            padding: 10px
+        }
+        
+        header .navbar ul li a {
+            color: #FFF;
+            text-decoration: none;
+            
+        } 
+        .about-me { 
+            overflow: hidden
+        }
+        
+        .about-me .image {
+        
+            width: 58%;
+            margin: 127px -105px
+        }
+        .about-me .image img {
+            width: 100%;
+        }
+        
+        .about-me .info {
+            width: 95%;
+            padding: 70px 0px;
+            margin-left: -47%
+        }
+        
+        .about-me .info h2 {
+            margin: -198px 0 0px 105px;
+            color: #272C31
+            
+            
+        }
+        
+        .about-me .info > p {
+            margin: 0 0 10px 40px;
+           
+        }
+        
+        .about-me .info > p:last-of-type {
+            margin-top: 20px;
+           
+        }
+        
+        .about-me .info p {
+            line-height: 1.5;
+            color: #3A3F43;
+            font-size: medium
+        }
+        
+        
+        .about-me .info .hobbies {
+            overflow: hidden;
+            margin: 15px 0 0 6px
+        }
+        
+        .about-me .info .hobbies .content h3{
+            color: #272C31
+        }
+        
+        .about-me .info .hobbies .content .icon {
+            float: left;
+            width: 12%;
+            margin-right: 5%
+            
+        }
+        
+        .about-me .info .hobbies .content .icon img {
+           max-width: 100%;
+           margin: 20px 10px 0 0
+            
+        }
+        
+        .about-me .info .hobbies .content .text {
+            float: left;
+            width: 83%    
+        }
+        .skills h2{
+            margin: 10px 113px
+        }
+        .my-skills{
+            width: 19%;
+            margin: 0 14px
+        }
+        .skills .my-button{
+            margin: 0 117px
+        }
+        .portfolio{
+            padding: 0 63px;
+            width: 0;
+            margin: 0 -40px
+        }
+        .portfolio h2{
+            margin: 20px 113px
+        }
+        .progress .tec div {
+            background-color: green;
+        }
+        .our-work{
+            margin-left: -6%
+        }
+        .footer{
+            width: 100px
+        }
+        .footer span{
+            margin: 0 90px;
+    
+        }
+        .footer ul{
+            list-style: none;
+            display: flex
+        }   
+    }  */
+
